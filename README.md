@@ -22,4 +22,4 @@ phonenumbers
 ## Contact
 Telegram: @Vozmezdin
 
-**FSOCIETY** — Educational project
+**FSOCIETY** - Educational project
