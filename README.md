@@ -1,2 +1,23 @@
-# FSOCIETY---App
-FSOCIETY Cyber Deck — OSINT + DDoS framework (educational). IP/phone/host lookup, HTTP flood simulator. Python + Flet. Dark UI. For authorized testing only.  
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=80&color=FF0000&center=true&vCenter=true&width=1000&lines=%24+OSINT+%2B+DDoS+FRAMEWORK;%24+FOR+EDUCATIONAL+PURPOSES+ONLY;%24+DESKTOP+%26+ANDROID;%24+ROOT+ACCESS:+GRANTED)](https://git.io/typing-svg)
+
+
+Educational cybersecurity application built with Python and Flet. Desktop & Android (APK) support.
+
+For educational purposes only. Author not responsible for misuse.
+
+git clone https://github.com/Vozmezdin/fsociety.git
+cd fsociety
+pip install -r requirements.txt
+python main.py
+
+
+## requirements.txt
+flet==0.21.2
+aiohttp
+requests
+phonenumbers
+
+## Contact
+Telegram: @Vozmezdin
+
+**FSOCIETY** — Educational project
