@@ -1,0 +1,6 @@
+flet==0.21.2
+aiohttp
+requests
+phonenumbers
+dnspython
+beautifulsoup4
