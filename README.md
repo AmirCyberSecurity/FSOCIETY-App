@@ -11,6 +11,12 @@ pip install -r requirements.txt
 ```
 python main.py
 
+## Build APK (Flet)
+
+```bash
+flet build apk --project "FSOCIETY" --module-name main
+```
+
 ## requirements.txt
 ```bash
 flet==0.21.2
