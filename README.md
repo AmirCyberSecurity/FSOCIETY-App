@@ -1,8 +1,8 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=80&color=00FF00&center=true&vCenter=true&width=1000&lines=%24+ADDoS+%2B+IP+BOMB+UTILITY;%24+FOR+EDUCATIONAL+PURPOSES+ONLY;%24+ASYNC+NETWORK+FLOOD;%24+CLI+PYTHON+TOOL)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=80&color=00FF00&center=true&vCenter=true&width=1000&lines=%24+OSINT+%2B+DDoS+FRAMEWORK;%24+FOR+EDUCATIONAL+PURPOSES+ONLY;%24+DESKTOP+%26+ANDROID;%24+ROOT+ACCESS:+GRANTED)](https://git.io/typing-svg)
 
-# ADDoS
+# FSOCIETY
 
-Educational cybersecurity application built with Python. CLI based DDoS and IP Bomb utility.
+Educational cybersecurity application built with Python and Flet. Desktop and Android (APK) support.
 
 For educational purposes only. Author not responsible for misuse.
 
@@ -13,13 +13,13 @@ python main.py
 
 ## requirements.txt
 ```bash
+flet==0.21.2
 aiohttp
-colorama
-pystyle
 requests
+phonenumbers
 ```
 
 ## Contact
 Telegram: @Vozmezdin
 
-**ADDoS** - Educational project
+**FSOCIETY** - Educational project
