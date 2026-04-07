@@ -101,7 +101,6 @@ def get_data(parsed) -> dict:
 
     data["line_type"] = type_map.get(n_type, "UNKNOWN")
 
-    # 👉 твоя логика MOBILE_RANGE
     data["tz"] = tz_list[0] if tz_list else "MOBILE_RANGE"
     data["tz_list"] = ", ".join(tz_list) if tz_list else "Unknown"
 
