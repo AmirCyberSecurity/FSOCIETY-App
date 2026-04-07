@@ -9,33 +9,30 @@ For educational purposes only. Author not responsible for misuse.
 ```bash
 pip install -r requirements.txt
 ```
+
 python fsociety.py
 
-## Build APK (Flet)
+## APK (Flet)
 
-To build the APK you need:  
-1. **Android Studio** (includes Android SDK and emulators)  
-2. **Java JDK** (usually installed with Android Studio)  
-3. Make sure **Android SDK** is added to your system PATH (Android Studio usually does this automatically)  
+Since the FLET framework allows you 
 
-Command to build APK using the project main file `fsociety.py`:
+To create APK applications, we've already created a ready-made 
 
-```bash
-flet build apk --project "FSOCIETY" --module-name fsociety
-```
+APK file for you to test our app on a 
 
-- The **APK will be created** in the folder:
+Mobile device. The APK file is called:
 
 ```
-build/apk/app-release.apk
+fsociety.apk
 ```
 
-- It is **mandatory to specify the project name** with `--project "FSOCIETY"`, otherwise Flet cannot detect the main file  
-- The main file for this project is **fsociety.py**, without it the build will fail  
+This APK is a copy of our desktop version, 
+
+But for mobile devices. Enjoy using it.
 
 ## requirements.txt
 ```bash
-flet==0.21.2
+flet
 aiohttp
 requests
 phonenumbers
