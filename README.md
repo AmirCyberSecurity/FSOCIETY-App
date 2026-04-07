@@ -32,7 +32,7 @@ But for mobile devices. Enjoy using it.
 
 ## requirements.txt
 ```bash
-flet
+flet==0.84.0
 aiohttp
 requests
 phonenumbers
