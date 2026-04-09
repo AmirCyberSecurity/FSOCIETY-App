@@ -14,16 +14,14 @@ python fsociety.py
 
 ## APK (Flet)
 
-Since the FLET framework allows you 
+We've already created a ready-to-use 
 
-To create APK applications, we've already created a ready-made 
+APK version of this project. 
 
-APK file for you to test our app on a 
+We've posted this APK on our Telegram channel 
 
-Mobile device. The APK file is called:
-
-```
-fsociety.apk
+```bash
+@VozmezdinProjects
 ```
 
 This APK is a copy of our desktop version, 
