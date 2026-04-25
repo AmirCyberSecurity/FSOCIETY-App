@@ -12,22 +12,6 @@ pip install -r requirements.txt
 
 python fsociety.py
 
-## APK (Flet)
-
-We've already created a ready-to-use 
-
-APK version of this project. 
-
-We've posted this APK on our Telegram channel 
-
-```bash
-@VozmezdinProjects
-```
-
-This APK is a copy of our desktop version, 
-
-But for mobile devices. Enjoy using it.
-
 ## requirements.txt
 ```bash
 flet==0.84.0
@@ -35,8 +19,5 @@ aiohttp
 requests
 phonenumbers
 ```
-
-## Contact
-Telegram: @Vozmezdin
 
 **FSOCIETY** - Educational project
